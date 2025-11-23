@@ -279,11 +279,416 @@
         "category": "生活"
     },
     {
+        "title": "各年龄段的样子",
+        "preview": "https://pbs.twimg.com/media/G6at2Z1akAA1tRN.jpg",
+        "prompt": "生成此人从出生到80岁各个年龄段的节日照片",
+        "author": "@songguoxiansen",
+        "link": "https://x.com/songguoxiansen/status/1992471573266395565",
+        "mode": "edit",
+        "category": "生活"
+    },
+    {
+        "title": "明星合照的幕后花絮",
+        "preview": "https://pbs.twimg.com/media/G6agAX6bUAA8VLd.jpg",
+        "prompt": "我想看看这张照片拍摄的幕后花絮，了解它是如何创作出来的",
+        "author": "@songguoxiansen",
+        "link": "https://x.com/songguoxiansen/status/1992456465173692800",
+        "mode": "generate",
+        "category": "有趣"
+    },
+    {
+        "title": "治愈系，宇航员坐在弯弯的月亮边钓星星",
+        "preview": "https://pbs.twimg.com/media/G6Q-CyKaoAAiScG.jpg",
+        "prompt": "一个宇航员坐在弯弯的月亮边缘，手里拿着鱼竿。鱼钩垂在下方的云层中，钓起了一颗发光的星星。氛围孤独而宁静。Lofi Hip Hop 视觉美学。",
+        "author": "@songguoxiansen",
+        "link": "https://x.com/songguoxiansen/status/1991875496817070245",
+        "mode": "generate",
+        "category": "有趣"
+    },
+    {
+        "title": "月亮不睡我不睡，我是秃头小宝贝",
+        "preview": "https://pbs.twimg.com/media/G6Q9bC0agAAF0R6.jpg",
+        "prompt": "一只熊猫戴着墨镜，手里拿着保温杯（里面泡着枸杞）。背景是深夜的霓虹灯城市。熊猫身边的霓虹灯牌写着：“月亮不睡我不睡，我是秃头小宝贝”。",
+        "author": "@songguoxiansen",
+        "link": "https://x.com/songguoxiansen/status/1991871219600400445",
+        "mode": "generate",
+        "category": "有趣"
+    },
+    {
+        "title": "社恐模式：请勿靠近，内有恶犬",
+        "preview": "https://pbs.twimg.com/media/G6Q9H-9acAIvCOk.jpg",
+        "prompt": "一只刺猬穿着充气服走在人群中，周围的人都离它很远。刺猬的衣服上写着巨大的字：“社恐模式：请勿靠近，内有恶犬”。",
+        "author": "@songguoxiansen",
+        "link": "https://x.com/songguoxiansen/status/1991844291618938970",
+        "mode": "generate",
+        "category": "有趣"
+    },
+    {
+        "title": "国家一级摆烂许可证",
+        "preview": "https://pbs.twimg.com/media/G6Q8mm6acAAZTmT.jpg",
+        "prompt": "一张像驾照一样的证件卡片特写，证件照是一只睡着的考拉。证件名称写着：“国家一级摆烂许可证”。有效期写着：“永久有效”。",
+        "author": "@songguoxiansen",
+        "link": "https://x.com/songguoxiansen/status/1991813589078778313",
+        "mode": "generate",
+        "category": "有趣"
+    },
+    {
+        "title": "马里奥、路易吉给碧奇公主修理厨房",
+        "preview": "https://pbs.twimg.com/media/G6RSQEDbcAAJcvr.jpg",
+        "prompt": "马里奥满身污垢，看起来筋疲力尽，正在一个逼真的房子里修理厨房橱柜下漏水的水槽。路易吉递给他扳手。碧奇公主用金币支付他们报酬",
+        "author": "@songguoxiansen",
+        "link": "https://x.com/songguoxiansen/status/1991807393538478513",
+        "mode": "generate",
+        "category": "有趣"
+    },
+    {
+        "title": "师父别念了",
+        "preview": "https://pbs.twimg.com/media/G6RRUtnbYAAhPZd.jpg",
+        "prompt": "唐僧拿着麦克风在说唱。孙悟空跪在地上，痛苦地捂着耳朵，但头上的“紧箍”其实是一副发光的降噪耳机。背景文字：“师父别念了”。",
+        "author": "@songguoxiansen",
+        "link": "https://x.com/songguoxiansen/status/1991806384057532435",
+        "mode": "generate",
+        "category": "有趣"
+    },
+    {
+        "title": "马斯克教爱因斯坦拍照",
+        "preview": "https://pbs.twimg.com/media/G6RQ2THagAA1mtf.jpg",
+        "prompt": "头发蓬乱的爱因斯坦困惑地盯着智能手机，试图自拍。埃隆·马斯克站在他旁边，耐心地指着屏幕教他。手机屏幕上的字：“怎么拍照？”。",
+        "author": "@songguoxiansen",
+        "link": "https://x.com/songguoxiansen/status/1991805840685453495",
+        "mode": "generate",
+        "category": "有趣"
+    },
+    {
+        "title": "李小龙与尤达大师以武会友",
+        "preview": "https://pbs.twimg.com/media/G6RNcCXbYAAxWct.jpg",
+        "prompt": "穿着黄色连体服的李小龙与尤达大师进行友好的切磋。李小龙拿着双截棍，尤达拿着绿色小光剑。他们都在微笑。传统中国道场背景。后方横幅写着“以武会友”。",
+        "author": "@songguoxiansen",
+        "link": "https://x.com/songguoxiansen/status/1991802097483014569",
+        "mode": "generate",
+        "category": "有趣"
+    },
+    {
+        "title": "游戏角色试图从电视屏幕爬到客厅",
+        "preview": "https://pbs.twimg.com/media/G6RMg5na4AAy3d8.jpg",
+        "prompt": "一个像素化的电子游戏角色试图从电视屏幕爬到客厅里。一个真实的人类玩家正手忙脚乱地用控制器把角色推回屏幕。",
+        "author": "@songguoxiansen",
+        "link": "https://x.com/songguoxiansen/status/1991801077092733297",
+        "mode": "generate",
+        "category": "有趣"
+    },
+    {
+        "title": "你好地球人！",
+        "preview": "https://pbs.twimg.com/media/G6RLqfbacAEUVRt.jpg",
+        "prompt": "两名身穿笨重宇航服的宇航员在月球表面自拍。背景中，一个滑稽的小灰人正在抢镜，举着一个牌子写着“你好地球人！”。",
+        "author": "@songguoxiansen",
+        "link": "https://x.com/songguoxiansen/status/1991800151204307071",
+        "mode": "generate",
+        "category": "有趣"
+    },
+    {
+        "title": "粉红色的星之卡吐泡泡",
+        "preview": "https://pbs.twimg.com/media/G6RHoGna4AArBDN.jpg",
+        "prompt": "梦境日记。粉红色的星之卡比睡在一颗星星上，嘴里吐出彩虹色的气泡。柔和的马卡龙色系，云朵和糖果的贴纸，闪粉笔画的细节，梦幻且甜美。",
+        "author": "@songguoxiansen",
+        "link": "https://x.com/songguoxiansen/status/1991795708308189668",
+        "mode": "generate",
+        "category": "有趣"
+    },
+    {
+        "title": "哈利波特的魔法",
+        "preview": "https://pbs.twimg.com/media/G6RHPqmbAAAaQcS.jpg",
+        "prompt": "打开的复古皮质手帐本，羊皮纸纹理。手绘涂鸦风格的哈利波特正在施法，魔法火花形成一个发光的直角三角形。“a^2 + b^2 = c^2”用古典书法墨水写成。装饰着霍格沃茨火漆印、漂浮的羽毛涂鸦，页面上放着一支真的羽毛笔。温暖的烛光照明，魔法氛围，复古手帐拼贴风格。",
+        "author": "@songguoxiansen",
+        "link": "https://x.com/songguoxiansen/status/1991795287489401255",
+        "mode": "generate",
+        "category": "有趣"
+    },
+    {
+        "title": "小黄人建造金字塔",
+        "preview": "https://pbs.twimg.com/media/G6RGrF2bsAEjX8v.jpg",
+        "prompt": "混乱可爱的记事本。马克笔涂鸦的小黄人试图建造金字塔但失败了，周围围着香蕉。活动眼珠贴纸贴在页面上，黄色油漆飞溅，混乱的涂鸦，搭配中文字。桌上有一根吃了一半的香蕉。幽默、明亮、儿童核心美学的手帐。",
+        "author": "@songguoxiansen",
+        "link": "https://x.com/songguoxiansen/status/1991794655932154047",
+        "mode": "generate",
+        "category": "有趣"
+    },
+    {
+        "title": "破旧的船长航海日志",
+        "preview": "https://pbs.twimg.com/media/G6RGSLDa4AAFdrj.jpg",
+        "prompt": "破旧的船长航海日志。速写描绘路飞伸长橡胶手臂去抓宝箱，与桅杆形成三角形。藏宝图背景纹理，指南针印章，“通缉令”海报碎片，金币贴纸。冒险、混乱、海盗手帐风格。",
+        "author": "@songguoxiansen",
+        "link": "https://x.com/songguoxiansen/status/1991794231263072737",
+        "mode": "generate",
+        "category": "有趣"
+    },
+    {
+        "title": "咸鱼翻身还是咸鱼",
+        "preview": "https://pbs.twimg.com/media/G6Q_SssbAAAOrWs.jpg",
+        "prompt": "一条咸鱼躺在平底锅里，正在努力试图翻身，但翻过来还是咸鱼。画风是极简手绘风。旁边配文：“咸鱼翻身……还是咸鱼”。",
+        "author": "@songguoxiansen",
+        "link": "https://x.com/songguoxiansen/status/1991786544286642625",
+        "mode": "generate",
+        "category": "有趣"
+    },
+    {
+        "title": "何以解忧，唯有暴富",
+        "preview": "https://pbs.twimg.com/media/G6Q1AKhacAItrB_.jpg",
+        "prompt": "一张黄色的道教符咒特写，但上面的鬼画符仔细看是“RMB”和“USD”的货币符号交织而成。中间醒目的朱砂红字写着：“何以解忧，唯有暴富”。",
+        "author": "@songguoxiansen",
+        "link": "https://x.com/songguoxiansen/status/1991775440244277370",
+        "mode": "generate",
+        "category": "有趣"
+    },
+    {
+        "title": "游泳晒太阳，西瓜汁畅饮",
+        "preview": "https://pbs.twimg.com/media/G6QxDHEacAIO_xc.jpg",
+        "prompt": "一个巨大西瓜的剖面图。红色的果肉实际上是一个装满红色水的游泳池。黑色的西瓜籽是游泳圈。微缩的小人在西瓜皮上游泳和晒太阳。夏日氛围。",
+        "author": "@songguoxiansen",
+        "link": "https://x.com/songguoxiansen/status/1991770878154272790",
+        "mode": "generate",
+        "category": "有趣"
+    },
+    {
+        "title": "拿去当壁纸吧，这大鲸鱼，这彩虹",
+        "preview": "https://pbs.twimg.com/media/G6QvTkCacAATNjA.jpg",
+        "prompt": "黄金时刻，一只巨大的、半透明的蓝鲸在洁白蓬松的云海中游动。鲸鱼的身体由海水构成，里面还可以看到游动的鱼群。阳光穿透水做的鲸鱼，折射出彩虹。画面超现实且宏伟壮观。",
+        "author": "@songguoxiansen",
+        "link": "https://x.com/songguoxiansen/status/1991768984195400068",
+        "mode": "generate",
+        "category": "有趣"
+    },
+    {
+        "title": "两条锦鲤形成的太极图",
+        "preview": "https://pbs.twimg.com/media/G6QuUsWacAArtgo.jpg",
+        "prompt": "两条锦鲤在水中游动，形成完美的阴阳太极图案。一条鱼由黑色的水墨烟雾组成，另一条由白色的发光光线组成。俯视视角，水面有涟漪。禅意，极简主义。",
+        "author": "@songguoxiansen",
+        "link": "https://x.com/songguoxiansen/status/1991768051654762799",
+        "mode": "generate",
+        "category": "有趣"
+    },
+    {
+        "title": "这个跳舞的妹子，裙摆好特别，金黄金黄的",
+        "preview": "https://pbs.twimg.com/media/G6QsE-EacAIEfdJ.jpg",
+        "prompt": "A high-speed photograph of a dancer where her dress is formed entirely by splashing liquid gold. The liquid freezes in mid-air, creating intricate swirls and droplets that mimic fabric. Cinematic lighting, golden hour colors, luxurious and dynamic.",
+        "author": "@songguoxiansen",
+        "link": "https://x.com/songguoxiansen/status/1991765512871899306",
+        "mode": "generate",
+        "category": "有趣"
+    },
+    {
+        "title": "戴珍珠耳环的猫猫",
+        "preview": "https://pbs.twimg.com/media/G6Qq0uiakAA7M37.jpg",
+        "prompt": "Johannes Vermeer's Girl with a Pearl Earring, but the girl is replaced by a chubby British Shorthair cat looking back over its shoulder. The cat is wearing the blue headscarf and the pearl earring. Oil painting texture, cracked varnish effect, classic art parody",
+        "author": "@songguoxiansen",
+        "link": "https://x.com/songguoxiansen/status/1991764039823769640",
+        "mode": "generate",
+        "category": "有趣"
+    },
+    {
+        "title": "孤独的宇航员坐在普通城市公交站,等去火星的42路车",
+        "preview": "https://pbs.twimg.com/media/G6QqXcgacAQEG2A.jpg",
+        "prompt": "A cinematic shot of a lonely astronaut sitting on a regular city bus stop bench, but the bus stop is floating in deep space. Earth is visible in the distance. The bus stop sign says "Route 42: To Mars". The astronaut is checking a smartphone. Melancholic yet funny.",
+        "author": "@songguoxiansen",
+        "link": "https://x.com/songguoxiansen/status/1991763539468632087",
+        "mode": "generate",
+        "category": "有趣"
+    },
+    {
+        "title": "这这这，川剧的变脸绝技什么时候泄露的？",
+        "preview": "https://pbs.twimg.com/media/G6Pi-ewaUAAhxfM.jpg",
+        "prompt": "生成一张中国川剧变脸这门绝技的解密拆解图,中文字体不要变形。宽高比16:9",
+        "author": "@songguoxiansen",
+        "link": "https://x.com/songguoxiansen/status/1991685064569266240",
+        "mode": "generate",
+        "category": "有趣"
+    },
+    {
+        "title": "拥挤的北京地铁车厢，但乘客全是神话人物",
+        "preview": "https://pbs.twimg.com/media/G6Nk47EacAc_Qqj.jpg",
+        "prompt": "拥挤的北京地铁车厢，但乘客全是神话人物（孙悟空、猪八戒等）。车厢连接处的滚动屏显示红色字体：“前往西天取经的乘客请注意，前方到站：高老庄”。车门玻璃上贴着警告标示：“禁止在车厢内施展法术”。",
+        "author": "@songguoxiansen",
+        "link": "https://x.com/songguoxiansen/status/1991681971529908358",
+        "mode": "generate",
+        "category": "有趣"
+    },
+    {
+        "title": "温暖的日式居酒屋暖黄灯光",
+        "preview": "https://pbs.twimg.com/media/G6NZPo_acAYrjpG.jpg",
+        "prompt": "温暖的日式居酒屋暖黄灯光。店长是一只系着头巾的柴犬，正在认真地烤串。吧台前的灯笼上写着汉字：“拒绝内卷，只想撸串”。墙上的菜单木牌上写着特色菜：“碳烤秋刀鱼（不含刺）”和“快乐肥宅水（无限续杯）”。",
+        "author": "@songguoxiansen",
+        "link": "https://x.com/songguoxiansen/status/1991533617403818429",
+        "mode": "generate",
+        "category": "有趣"
+    },
+    {
+        "title": "巨物恐惧症风格，好莱坞灾难片质感",
+        "preview": "https://pbs.twimg.com/media/G6NWDdCakAELqTM.jpg",
+        "prompt": "巨物恐惧症风格，好莱坞灾难片质感。一个巨大的红烧牛肉面桶从天而降，砸在繁华的十字路口。面桶上原本的品牌名变成了一行巨大的警示语：“深夜放毒，这是对减肥最大的不尊重”。旁边的高楼大厦LED大屏上配合地显示：“忍住！吃了这顿明天再减！”。",
+        "author": "@songguoxiansen",
+        "link": "https://x.com/songguoxiansen/status/1991530558992859379",
+        "mode": "generate",
+        "category": "有趣"
+    },
+    {
+        "title": "3D皮克斯风格渲染",
+        "preview": "https://pbs.twimg.com/media/G6NVP_YaUAEBvfA.jpg",
+        "prompt": "3D皮克斯风格渲染。一只戴着厚眼镜的橘猫正坐在电脑前疯狂敲代码，表情崩溃。它的电脑屏幕背后贴着一张显眼的便利贴，写着：“需求改了八百遍，甲方说还是第一版好”。桌子上散落的咖啡杯上印着：“代码写得好，头发掉得早”。背景是乱糟糟的服务器机房。",
+        "author": "@songguoxiansen",
+        "link": "https://x.com/songguoxiansen/status/1991529211392323991",
+        "mode": "generate",
+        "category": "有趣"
+    },
+    {
+        "title": "水墨画风格与写实摄影的结合",
+        "preview": "https://pbs.twimg.com/media/G6NVDc0acAkj8HI.jpg",
+        "prompt": "水墨画风格与写实摄影的结合。云雾缭绕的深山悬崖边，有一座摇摇欲坠的古老木质茶馆。茶馆门口挂着一副巨大的对联，随风飘扬。上联写：“进门不问人间事”，下联写：“喝茶只谈山海经”。横批是一块斑驳的牌匾：“神仙也得排队”。",
+        "author": "@songguoxiansen",
+        "link": "https://x.com/songguoxiansen/status/1991529000519496037",
+        "mode": "generate",
+        "category": "有趣"
+    },
+    {
+        "title": "广角镜头拍摄荒凉的废土世界",
+        "preview": "https://pbs.twimg.com/media/G6NUwT2aMAAXs1N.jpg",
+        "prompt": "广角镜头拍摄荒凉的废土世界，沙漠中央伫立着一家破败但依然营业的便利店。阳光刺眼，尘土飞扬。便利店破碎的玻璃门上贴着一张巨大的、泛黄的告示，上面用红笔醒目地写着：“全人类最后一家便利店，不收瓶盖只收黄金”。屋顶的广告牌虽然生锈，但依稀可见一行大字：“再苦不能苦肚子，再穷不能穷教育”。",
+        "author": "@songguoxiansen",
+        "link": "https://x.com/songguoxiansen/status/1991528688345837701",
+        "mode": "generate",
+        "category": "有趣"
+    },
+    {
+        "title": "一张极具电影感的画面",
+        "preview": "https://pbs.twimg.com/media/G6NUgMhacAMFI5e.jpg",
+        "prompt": "一张极具电影感的画面，描绘一个位于未来赛博朋克风格贫民窟的80年代风格中式路边摊。霓虹灯管闪烁着故障的粉色光芒。摊主是一个戴着机械义肢的老大爷。摊位上挂着一块做旧的木牌，上面用发光的荧光颜料手写着：“祖传老中医专治机械故障”。旁边还有一个电子屏滚动显示：“今日特价：高能电池爆炒螺丝钉”。烟火气十足，雨水打湿了地面反射着灯光。",
+        "author": "@songguoxiansen",
+        "link": "https://x.com/songguoxiansen/status/1991528391062003866",
+        "mode": "generate",
+        "category": "有趣"
+    },
+    {
+        "title": "真实摄影风格，一只肥胖的狸花猫",
+        "preview": "https://pbs.twimg.com/media/G6NSh5racA8_oZz.jpg",
+        "prompt": "真实摄影风格，一只肥胖的狸花猫慵懒地趴在故宫红墙琉璃瓦上晒太阳。猫咪脖子上挂着一个精致的金色吊牌，吊牌上刻着汉字“御猫”。蓝天白云，光影斑驳。",
+        "author": "@songguoxiansen",
+        "link": "https://x.com/songguoxiansen/status/1991526230122983894",
+        "mode": "generate",
+        "category": "有趣"
+    },
+    {
+        "title": "潮流插画风格，一个穿着国潮服饰的少年",
+        "preview": "https://pbs.twimg.com/media/G6NR5mpacAYGp6Z.jpg",
+        "prompt": "潮流插画风格，一个穿着国潮服饰的少年正在玩滑板，滑板底部绘有醒狮图案。背景是涂鸦风格的街头墙壁，墙上喷涂着巨大的汉字“国潮”。色彩高饱和度，动感十足。",
+        "author": "@songguoxiansen",
+        "link": "https://x.com/songguoxiansen/status/1991525972584329438",
+        "mode": "generate",
+        "category": "有趣"
+    },
+    {
+        "title": "一张极其逼真的重庆火锅特写",
+        "preview": "https://pbs.twimg.com/media/G6NRp68bwAABgQy.jpg",
+        "prompt": "一张极其逼真的重庆火锅特写，红油翻滚，辣椒漂浮。画面正中央有一双筷子夹着一片毛肚，背景虚化的墙上有一块木质牌匾，上面写着书法字体“巴适”。色彩鲜艳，让人食欲大增。",
+        "author": "@songguoxiansen",
+        "link": "https://x.com/songguoxiansen/status/1991525263478518021",
+        "mode": "generate",
+        "category": "有趣"
+    },
+    {
+        "title": "乐高风格的微缩摄影",
+        "preview": "https://pbs.twimg.com/media/G6NRV2YacAIqEOF.jpg",
+        "prompt": "乐高风格的微缩摄影。用乐高积木拼搭出的麻将桌场景，四个乐高小人正在打麻将。桌子中间的一张巨大的麻将牌倒下，牌面上清晰地刻着汉字发财。",
+        "author": "@songguoxiansen",
+        "link": "https://x.com/songguoxiansen/status/1991524919033884929",
+        "mode": "generate",
+        "category": "有趣"
+    },
+    {
         "title": "伪造抖音截图",
         "preview": "https://pbs.twimg.com/media/G6NPkz-XMAAuOKT?format=jpg&name=large",
         "prompt": "帮我生成一帧抖音竖屏短视频截图，内容是\n厨房帝王蟹下锅处理，厨师面对镜头展示食材和案板上成套的厨具",
         "author": "@tuzi_ai",
         "link": "https://x.com/tuzi_ai/status/1991523528295014822",
+        "mode": "generate",
+        "category": "有趣"
+    },
+    {
+        "title": "清明上河图芝加哥版",
+        "preview": "https://pbs.twimg.com/media/G6ar-ICXgAAH3TF.jpg?format=jpg&name=large",
+        "prompt": "一幅宏大的中国传统水墨工笔长卷画，完全模仿北宋张择端《清明上河图》的绘画风格、散点透视构图和古朴泛黄的绢本设色质感。\n\n核心场景： 繁忙的现代芝加哥河滨鸟瞰图。画面焦点是一座巨大的钢铁双层开合桥（杜萨布尔桥/密歇根大道桥），桥面交通极其拥堵，绘满了密密麻麻的现代汽车、黄色的出租车和芝加哥公交车，所有车辆都用毛笔线条精细勾勒。\n\n环境细节： 芝加哥河中满载现代游客的双层游船、水上出租车和皮划艇。河流两岸矗立着密集的古典复兴风格摩天大楼（类似箭牌大厦和论坛报大厦），建筑采用传统的“界画”技法绘制。背景中可见高架铁路结构和正在行驶的“L”线列车。\n\n人物活动： 河滨步道和桥上挤满了成百上千的微小现代人物，他们穿着当代休闲服装，有的在慢跑，有的举着智能手机拍照，有的在路边热狗摊排队购买食物，有的在遛狗。整个画面细节极其丰富，喧闹繁忙，完全使用古老的水墨和大地色调渲染。",
+        "author": "@dotey",
+        "link": "https://x.com/dotey/status/1992469134232219972",
+        "mode": "generate",
+        "category": "有趣"
+    },
+    {
+        "title": "仙女站扫地机器人",
+        "preview": "https://pbs.twimg.com/media/G6ac3vXXwAAf2oF.jpg?format=jpg&name=large",
+        "prompt": "一幅绘制在陈旧宣纸上的传统中国工笔水墨画。一位身着红色、米色和青色飘带的唐代仙女，头梳高髻佩戴牡丹花，站立在一个圆形的黑色扫地机器人上，在云雾中飞行。\n她右手拿着一个香草冰淇淋蛋筒在吃。左手提着一个棕色的路易威登（Louis Vuitton）老花手提包。在她下方，一只小猫头鹰背着一只打着荷叶伞的青蛙在飞翔。背景是水墨云雾和远山。\n左上角有书法题字，并有一个红色的长方形艺术家印章，印文为“寶玉”。",
+        "author": "@dotey",
+        "link": "https://x.com/dotey/status/1992452377522176175",
+        "mode": "generate",
+        "category": "有趣"
+    },
+    {
+        "title": "贵妇与小黄人",
+        "preview": "https://pbs.twimg.com/media/G6ZOMb_WEAAVKF6.jpg?format=jpg&name=large",
+        "prompt": "A traditional Chinese ink and color painting in Gongbi style on aged rice paper texture. A noblewoman in elaborate Tang Dynasty Hanfu robes sits on a wooden stool, holding a modern hairdryer to dry her long flowing hair. She is wearing black stockings, red high heels on one foot, resting on a small stool. \n\nThree Minions dressed in ancient Chinese servant robes and hats attend to her: one on the left looks stressed holding the hairdryer's power cord, one center kneels polishing her red shoe with a cloth, and one on the right holds up a smartphone taking a photo for her. The background features classical gnarled pine trees, bamboo groves, and Taihu rocks. \n\nTraditional Chinese calligraphy written in the top right corner, accompanied by a red artist chop seal (寶玉). The color palette is muted mineral pigments. Humorous, anachronistic fusion. --ar 16:9",
+        "author": "@dotey",
+        "link": "https://x.com/dotey/status/1992366309288595681",
+        "mode": "generate",
+        "category": "有趣"
+    },
+    {
+        "title": "骡马假日海报",
+        "preview": "https://pbs.twimg.com/media/G6ZYjb4WcAA-IqN.jpg?format=jpg&name=large",
+        "prompt": "把《罗马假日》电影海报的文字改成“骡马假日”，英文还是“ROMAN HOLIDAY”，男女主头部分别替换为骡子和马的头部，海报其余细节保持不变，下方写上“上映时间1/1-1/3”",
+        "author": "@dotey",
+        "link": "https://x.com/dotey/status/1992377407366676955",
+        "mode": "generate",
+        "category": "有趣"
+    },
+    {
+        "title": "和尚道长师太三格漫画",
+        "preview": "https://pbs.twimg.com/media/G6aL3REXIAAPjLh.jpg?format=jpg&name=large",
+        "prompt": "画一张3格漫画，香港武侠漫画风格，故事情节如下：\n和尚:\"师太,你从了和尚吧!\"\n道长:\"秃驴,竟敢跟贫道抢师太!\"\n师太:\"和尚、道长你们一起上吧,我赶时间。\"",
+        "author": "@dotey",
+        "link": "https://x.com/dotey/status/1992433730972197305",
+        "mode": "generate",
+        "category": "有趣"
+    },
+    {
+        "title": "Q版人物Instagram相框",
+        "preview": "https://pbs.twimg.com/media/G6YNfa4WMAEK1aF.jpg?format=jpg&name=large",
+        "prompt": "根据所附照片创建一个风格化的3D Q版人物角色，准确保留人物的面部特征和服装细节。\n\n角色的左手比心（手指上方有红色爱心元素），姿势俏皮地坐在一个巨大的Instagram相框边缘，双腿悬挂在框外。\n\n相框顶部显示用户名『Jimmy』，四周漂浮着社交媒体图标（点赞、评论、转发）。",
+        "author": "@dotey",
+        "link": "https://x.com/dotey/status/1992294960708890729",
+        "mode": "edit",
+        "category": "有趣"
+    },
+    {
+        "title": "特朗普壁画",
+        "preview": "https://pbs.twimg.com/media/G6VrtL8WsAAZrXU.jpg?format=jpg&name=large",
+        "prompt": "A realistic film photograph capturing a rural scene along a country road. \nOn the left, a heavily weathered, moss-stained concrete retaining wall features a large, painted mural portrait of Donald Trump. \nA dense, overflowing cascade of vibrant yellow forsythia blossoms and branches spills over the top edge of the wall, perfectly integrated to form the hair of the portrait. Fallen yellow petals are scattered across the dirt verge and the edge of the asphalt road. \nOn the right side of the road, a couple walks away from the viewer toward the background. In the mid-distance, there is a white farmhouse with a dark metal roof situated in green fields. \nThe background shows rolling hills and bare trees under a partly cloudy, overcast sky with diffused natural light suggestive of late afternoon. The image has a distinct film grain texture.",
+        "author": "@dotey",
+        "link": "https://x.com/dotey/status/1992117164451430439",
+        "mode": "generate",
+        "category": "有趣"
+    },
+    {
+        "title": "蔷薇少女墙绘",
+        "preview": "https://pbs.twimg.com/media/G6TbXGAWIAAFzPx.jpg?format=jpg&name=large",
+        "prompt": "一幅超高清晰度、摄影质感极强的街头壁画，画面呈现强烈的中国风韵味。\n\n画中描绘着一位绝美的卡通风女子正面特写头像，她神态柔美而宁静。墙体顶部被一大片盛开的蔷薇花覆盖，茂密的绿叶与繁盛的花朵向外舒展，部分枝条从墙顶垂落而下，与女子的头发巧妙融合，使她的秀发宛如由层层叠叠的蔷薇花组成。这些繁密的花朵簇拥着女子的头部，形成了一顶瑰丽的花冠，视觉效果华美浪漫。\n\n背景中蓝天澄澈，点缀着朵朵白云；地面为一条细节真实的沥青街道，上面散落着缤纷多彩的花瓣，行人悠然漫步其间。整体场景细节精致入微，光影明亮柔和，营造出犹如现实般的梦幻街景氛围。",
+        "author": "@dotey",
+        "link": "https://x.com/dotey/status/1991958132419919975",
+        "mode": "generate",
+        "category": "有趣"
+    },
+    {
+        "title": "橙白锦鲤插画",
+        "preview": "https://pbs.twimg.com/media/G6Vhd2UXYAAfG4W.jpg?format=jpg&name=large",
+        "prompt": "一幅醒目的插画，画面中心有三条橙白相间的锦鲤，优雅地游曳于深灰色池塘之中。池水表面漂浮着柔和的粉色樱花花瓣，背景中呈现浅粉色的水波涟漪，增添浪漫的季节感。画面上方或侧面以白色优美的汉字书写‘錦鯉’。\n\n整体风格采用极简的水彩画设计，细节精致细腻，融合现代元素与传统美学，呈现出简洁而时尚的艺术气息。",
+        "author": "@dotey",
+        "link": "https://x.com/dotey/status/1992105581868466381",
         "mode": "generate",
         "category": "有趣"
     },
