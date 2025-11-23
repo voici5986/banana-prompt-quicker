@@ -72,6 +72,42 @@
         "category": "工作"
     },
     {
+        "title": "汽车发动机工作原理3D剖面图",
+        "preview": "https://pbs.twimg.com/media/GzdC8K0b0AEzvVP?format=jpg&name=small",
+        "prompt": "绘制一幅展示汽车发动机工作原理的3D立体剖面设计图，以高度还原的方式精细呈现其内部结构。每个零部件被拆解并有序排列，各部分均配有清晰英文标注，注明结构名称与功能说明，整体布局兼具专业性与视觉逻辑性，呈现出清晰、整洁且极具科技感的解析示意图。",
+        "author": "@berryxia_ai",
+        "link": "https://x.com/berryxia_ai/status/1991474410939940867",
+        "mode": "generate",
+        "category": "学习"
+    },
+    {
+        "title": "瑞克和莫蒂风格科普",
+        "preview": "https://pbs.twimg.com/media/G6PcDI3acAEfb8e?format=jpg&name=medium",
+        "prompt": "使用 rick and morty 画风，非常详细地介绍xx",
+        "author": "@oran_ge",
+        "link": "https://x.com/oran_ge/status/1991677670778892600",
+        "mode": "generate",
+        "category": "学习"
+    },
+    {
+        "title": "生物标本展示图",
+        "preview": "https://pbs.twimg.com/media/G6MjRHTbYAAQo0E?format=jpg&name=medium",
+        "prompt": "绘制【XX】的标本并且将其的器官部位进行标本展示的标记中文，用于教学展示，非常的直观，放置在干净的纯色背景下，高清逼真还原。",
+        "author": "@berryxia_ai",
+        "link": "https://x.com/berryxia_ai/status/1991474410939940867",
+        "mode": "generate",
+        "category": "学习"
+    },
+    {
+        "title": "文章转漫画风格总结图",
+        "preview": "https://pbs.twimg.com/media/G6NXrdNaQAATevh?format=jpg&name=medium",
+        "prompt": "用图片总结如下文章，图片文字用中文，详细一点，图片美观一些，漫画风格\n\n文章：https://blog.google/products/gemini/prompting-tips-nano-banana-pro/",
+        "author": "@LufzzLiz",
+        "link": "https://x.com/LufzzLiz/status/1991534738599997654",
+        "mode": "generate",
+        "category": "学习"
+    },
+    {
         "title": "伪造抖音截图",
         "preview": "https://pbs.twimg.com/media/G6NPkz-XMAAuOKT?format=jpg&name=large",
         "prompt": "帮我生成一帧抖音竖屏短视频截图，内容是\n厨房帝王蟹下锅处理，厨师面对镜头展示食材和案板上成套的厨具",
@@ -96,6 +132,51 @@
         "author": "@tuzi_ai",
         "link": "https://x.com/tuzi_ai/status/1991486859697090654",
         "mode": "generate",
+        "category": "有趣"
+    },
+    {
+        "title": "生成可爱K-pop风格女友照片",
+        "preview": "https://pbs.twimg.com/media/G6R3aVhacAEJsTv?format=jpg&name=large",
+        "prompt": "参考图1的面部特征，生成全身工作室肖像：一位甜美的年轻东亚女性坐在浅紫色背景前的地板上，穿着舒适的超大号薰衣草色粗针织毛衣、白色裙子和白色袜子，深情地抱着一个大型三丽鸥库洛米毛绒玩具，温柔地看着镜头。背景装饰有俏皮的手绘紫色涂鸦和文字，包括\"A\"、“ANNISA”、纸飞机和花朵，风格类似K-pop照片卡或粉丝杂志封面。光线明亮柔和，营造可爱温馨的氛围。",
+        "author": "@bozhou_ai",
+        "link": "https://x.com/bozhou_ai/status/1991848234722165035",
+        "mode": "edit",
+        "category": "生活"
+    },
+    {
+        "title": "名人名言金句卡",
+        "preview": "https://pbs.twimg.com/media/G6QBjQHbgAE3Yt_?format=jpg&name=large",
+        "prompt": "一张宽的名人金句卡，棕色背景，衬线体浅金色 “保持饥饿, 保持愚蠢” 小字“——Steve Jobs”，文字前面带一个大的淡淡的引号，人物头像在左边，文字在右边，文字占画面比例2/3，人物占1/3，人物有点渐变过渡的感觉 记住：引号里的文字可替换",
+        "author": "@stark_nico99",
+        "link": "https://x.com/stark_nico99/status/1991718646570426763",
+        "mode": "generate",
+        "category": "工作"
+    },
+    {
+        "title": "将你的任何文字变成发布会现场",
+        "preview": "https://pbs.twimg.com/media/G6QnxeCasAIiGHT?format=jpg&name=large",
+        "prompt": "根据文字生成一张照片：一个宏大的苹果发布会现场，现场很多观众，场景很暗，有绚丽的灯光，镜头聚焦在很宽的大屏幕，弧形屏幕，文字和屏幕一样有一定的透视感，很小的人物剪影站在舞台上，紫色到蓝色弥散背景上，白色文字有一些渐变，像是现场实拍，高级感 16:9",
+        "author": "@stark_nico99",
+        "link": "https://x.com/stark_nico99/status/1991760674435780778",
+        "mode": "generate",
+        "category": "工作"
+    },
+    {
+        "title": "动漫图转真人 Cosplay",
+        "preview": "https://pbs.twimg.com/media/G6N9Ts3acAIDWxj?format=jpg&name=large",
+        "prompt": "1:1变真人",
+        "author": "@ZHO_ZHO_ZHO",
+        "link": "https://x.com/ZHO_ZHO_ZHO/status/1991573512713347181",
+        "mode": "edit",
+        "category": "有趣"
+    },
+    {
+        "title": "图片转真人风格电影海报",
+        "preview": "https://pbs.twimg.com/media/G6N_7N5acAAiZih?format=jpg&name=4096x4096",
+        "prompt": "1:1真人电影海报",
+        "author": "@SVD_Studio_Q",
+        "link": "https://x.com/ZHO_ZHO_ZHO/status/1991573512713347181",
+        "mode": "edit",
         "category": "有趣"
     },
     {
