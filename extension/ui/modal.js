@@ -1,6 +1,6 @@
 class BananaModal {
-    constructor(website) {
-        this.website = website;
+    constructor(site) {
+        this.site = site;
         this.modal = null;
         this.store = null;
         this.searchComponent = null;
@@ -75,7 +75,7 @@ class BananaModal {
 
     createModal() {
         const { h } = window.BananaDOM;
-        const colors = this.website.getThemeColors();
+        const colors = this.site.getThemeColors();
         const mobile = this.isMobile();
 
         const overlay = h('div', {
@@ -116,7 +116,7 @@ class BananaModal {
     }
 
     createSearchSection() {
-        const colors = this.website.getThemeColors();
+        const colors = this.site.getThemeColors();
         const mobile = this.isMobile();
 
         this.searchComponent = new window.BananaSearch({
@@ -170,7 +170,7 @@ class BananaModal {
     }
 
     createPaginationSection() {
-        const colors = this.website.getThemeColors();
+        const colors = this.site.getThemeColors();
         const mobile = this.isMobile();
 
         this.paginationComponent = new window.BananaUI.Pagination({
@@ -220,8 +220,8 @@ class BananaModal {
 
         grid.innerHTML = '';
 
-        const colors = this.website.getThemeColors();
-        const theme = this.website.getCurrentTheme();
+        const colors = this.site.getThemeColors();
+        const theme = this.site.getCurrentTheme();
         const mobile = this.isMobile();
 
         if (pageItems.length === 0) {
@@ -233,7 +233,7 @@ class BananaModal {
                     theme,
                     colors,
                     mobile,
-                    onInsert: (text) => this.website.insertPrompt(text),
+                    onInsert: (text) => this.site.insertPrompt(text),
                     onToggleFavorite: async (promptId) => {
                         await this.store.toggleFavorite(promptId);
                         this.renderCards(); // Re-render to update star
@@ -259,7 +259,7 @@ class BananaModal {
 
     renderEmptyPlaceholder(grid) {
         const { h } = window.BananaDOM;
-        const colors = this.website.getThemeColors();
+        const colors = this.site.getThemeColors();
         const mobile = this.isMobile();
 
         const columns = mobile ? 2 : 4;
@@ -301,7 +301,7 @@ class BananaModal {
     }
 
     showPromptForm(existingPrompt = null) {
-        const colors = this.website.getThemeColors();
+        const colors = this.site.getThemeColors();
         const mobile = this.isMobile();
 
         this.promptForm = new window.BananaUI.PromptForm({

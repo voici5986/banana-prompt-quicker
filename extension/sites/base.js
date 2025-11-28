@@ -1,6 +1,6 @@
 window.BananaSites = window.BananaSites || {};
 
-window.BananaSites.Base = class BaseWebsite {
+window.BananaSites.Base = class BaseSite {
     constructor() {
         this.modal = null;
         this._buttonInserting = false;
