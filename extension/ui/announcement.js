@@ -7,15 +7,24 @@ window.BananaUI.Announcement = class AnnouncementComponent {
         this.announcements = [];
         this.currentIndex = 0;
         this.rotationTimeout = null;
+        this.scrollTimeout = null;
+        this.scrollAnimation = null;
+        this.isHovered = false;
     }
 
     async load() {
         if (window.ConfigManager) {
             const config = await window.ConfigManager.get();
             if (config?.announcements?.length > 0) {
-                this.announcements = config.announcements;
+                // Weighted random sort: Higher priority = higher chance to be first
+                this.announcements = config.announcements
+                    .map(item => ({
+                        ...item,
+                        _sortKey: Math.pow(Math.random(), 1 / (item.priority || 1))
+                    }))
+                    .sort((a, b) => b._sortKey - a._sortKey);
+
                 this.currentIndex = 0;
-                // Start rotation if we have a container
                 const container = document.getElementById('announcement-container');
                 if (container) {
                     this.updateContent(container);
@@ -44,10 +53,23 @@ window.BananaUI.Announcement = class AnnouncementComponent {
                 box-sizing: border-box; 
                 overflow: hidden;
                 transition: all 0.3s ease;
+                cursor: default;
             `
         });
 
-        // Initial update
+        // Hover events to pause/resume
+        container.addEventListener('mouseenter', () => {
+            this.isHovered = true;
+            if (this.scrollAnimation) this.scrollAnimation.pause();
+            if (this.rotationTimeout) clearTimeout(this.rotationTimeout);
+        });
+
+        container.addEventListener('mouseleave', () => {
+            this.isHovered = false;
+            if (this.scrollAnimation) this.scrollAnimation.play();
+            this.scheduleRotation();
+        });
+
         if (this.announcements.length > 0) {
             this.updateContent(container);
         }
@@ -61,6 +83,14 @@ window.BananaUI.Announcement = class AnnouncementComponent {
             return;
         }
         container.style.display = 'flex';
+
+        // Clean up previous state
+        if (this.scrollTimeout) clearTimeout(this.scrollTimeout);
+        if (this.rotationTimeout) clearTimeout(this.rotationTimeout);
+        if (this.scrollAnimation) {
+            this.scrollAnimation.cancel();
+            this.scrollAnimation = null;
+        }
 
         const item = this.announcements[this.currentIndex];
         const { h } = window.BananaDOM;
@@ -85,12 +115,12 @@ window.BananaUI.Announcement = class AnnouncementComponent {
         container.appendChild(icon);
         container.appendChild(wrapper);
 
-        // Simple scroll logic
-        setTimeout(() => {
+        // Scroll logic with 2s delay
+        this.scrollTimeout = setTimeout(() => {
             if (text.offsetWidth > wrapper.offsetWidth) {
                 const diff = text.offsetWidth - wrapper.offsetWidth;
                 // Scroll back and forth
-                text.animate([
+                this.scrollAnimation = text.animate([
                     { transform: 'translateX(0)' },
                     { transform: `translateX(-${diff}px)` },
                     { transform: `translateX(-${diff}px)` }, // pause
@@ -99,12 +129,24 @@ window.BananaUI.Announcement = class AnnouncementComponent {
                     duration: 8000,
                     iterations: Infinity
                 });
-            }
-        }, 100);
 
-        // Schedule next rotation
+                // If user is already hovering when animation starts
+                if (this.isHovered) {
+                    this.scrollAnimation.pause();
+                }
+            }
+        }, 2000);
+
+        this.scheduleRotation();
+    }
+
+    scheduleRotation() {
         if (this.rotationTimeout) clearTimeout(this.rotationTimeout);
+        if (this.isHovered) return; // Don't rotate if hovered
+
+        const item = this.announcements[this.currentIndex];
         const duration = (item.duration || 5) * 1000;
+
         this.rotationTimeout = setTimeout(() => {
             this.currentIndex = (this.currentIndex + 1) % this.announcements.length;
             const currentContainer = document.getElementById('announcement-container');
