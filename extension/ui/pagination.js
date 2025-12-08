@@ -265,7 +265,7 @@ window.UI.Pagination = class PaginationComponent {
         });
 
         const sponsorText = h('span', {
-            innerHTML: '☕ 永久免费',
+            innerHTML: '☕ 请喝奶茶',
             style: `color: ${colors.textSecondary}; font-size: ${mobile ? '12px' : '13px'}; cursor: pointer; transition: all 0.2s; display: flex; align-items: center; gap: 6px; font-weight: 500; opacity: 0.8;`
         });
 
