@@ -8,6 +8,8 @@ chrome.runtime.onInstalled.addListener((details) => {
         title: 'Insert 🍌 Prompts',
         contexts: ['editable']
     })
+
+    chrome.runtime.setUninstallURL('https://glidea.github.io/banana-prompt-quicker/extension/pages/uninstall.html');
 })
 
 chrome.contextMenus.onClicked.addListener((info, tab) => {
