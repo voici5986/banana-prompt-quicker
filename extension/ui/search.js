@@ -11,6 +11,7 @@
                 activeFilters: props.activeFilters || new Set(),
                 sortMode: props.sortMode || 'recommend',
                 nsfwEnabled: props.nsfwEnabled || true,
+                recentWeekEnabled: props.recentWeekEnabled || false,
                 isDropdownOpen: false
             };
             this.element = null;
@@ -98,6 +99,17 @@
                     }
                 }
             });
+
+            // Update Recent Week Button
+            const recentWeekBtn = this.element.querySelector('#filter-recent-week');
+            if (recentWeekBtn) {
+                const isActive = this.state.recentWeekEnabled;
+                if (isActive) {
+                    recentWeekBtn.style.cssText = `padding: ${isMobile ? '10px 18px' : '8px 18px'}; border: 1px solid ${colors.primary}; border-radius: 20px; background: ${colors.primary}; color: white; font-size: ${isMobile ? '14px' : '13px'}; cursor: pointer; transition: all 0.25s ease; white-space: nowrap; touch-action: manipulation; box-shadow: 0 2px 8px ${colors.shadow};`;
+                } else {
+                    recentWeekBtn.style.cssText = `padding: ${isMobile ? '10px 18px' : '8px 18px'}; border: 1px solid ${colors.border}; border-radius: 20px; background: ${colors.surface}; color: ${colors.text}; font-size: ${isMobile ? '14px' : '13px'}; cursor: pointer; transition: all 0.25s ease; white-space: nowrap; touch-action: manipulation;`;
+                }
+            }
         }
 
         renderCategoryOptions() {
@@ -263,6 +275,35 @@
             const buttonsContainer = h('div', {
                 style: `display: flex; gap: 8px; ${isMobile ? 'flex: 1; justify-content: flex-end;' : ''}`
             });
+
+            // Recent Week Button
+            const recentWeekBtn = h('button', {
+                id: 'filter-recent-week',
+                style: `padding: ${isMobile ? '10px 18px' : '8px 18px'}; border: 1px solid ${colors.border}; border-radius: 20px; background: ${colors.surface}; color: ${colors.text}; font-size: ${isMobile ? '14px' : '13px'}; cursor: pointer; transition: all 0.25s ease; white-space: nowrap; touch-action: manipulation;`,
+                onclick: () => {
+                    const newValue = !this.state.recentWeekEnabled;
+                    this.updateState({ recentWeekEnabled: newValue });
+                    if (this.props.onRecentWeekChange) this.props.onRecentWeekChange(newValue);
+                },
+                onmouseenter: !isMobile ? (e) => {
+                    if (!this.state.recentWeekEnabled) {
+                        e.target.style.transform = 'scale(1.05)';
+                        e.target.style.boxShadow = `0 2px 8px ${colors.shadow}`;
+                    } else {
+                        e.target.style.transform = 'scale(1.05)';
+                        e.target.style.boxShadow = `0 4px 12px ${colors.shadow}`;
+                    }
+                } : null,
+                onmouseleave: !isMobile ? (e) => {
+                    e.target.style.transform = 'scale(1)';
+                    if (!this.state.recentWeekEnabled) {
+                        e.target.style.boxShadow = 'none';
+                    } else {
+                        e.target.style.boxShadow = `0 2px 8px ${colors.shadow}`;
+                    }
+                } : null
+            }, '最近一周');
+            buttonsContainer.appendChild(recentWeekBtn);
 
             const filters = [
                 { key: 'favorite', label: '收藏' },

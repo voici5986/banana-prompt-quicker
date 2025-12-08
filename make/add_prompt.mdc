@@ -34,7 +34,8 @@
         "link": "https://x.com/op7418/status/1991806419948253508",
         "mode": "generate",
         "category": "学习",
-        "sub_category": "总结"
+        "sub_category": "总结",
+        "created": "2025-12-08T21:30:00+08:00"
     }
 ]
 ```
@@ -53,6 +54,7 @@
 | `author` | string | 作者信息 | 格式:`@用户名` 或 `平台@用户名` 或 `Official` |
 | `mode` | string | 生成模式 | 只能是 `generate`(文生图) 或 `edit`(编辑图片) |
 | `category` | string | 主分类 | 只能是:`学习`、`工作`、`生活`、`有趣`、`NSFW` |
+| `created` | string | 创建时间 | rfc3339 格式的时间字符串，如果不确定，使用 `date` 命令获取准确时间 |
 
 ### 可选字段
 

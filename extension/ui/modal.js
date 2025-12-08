@@ -147,6 +147,10 @@ class BananaModal {
                 await this.store.setNsfwEnabled(enabled);
                 this.paginationComponent.resetPage();
             },
+            onRecentWeekChange: (enabled) => {
+                this.store.setRecentWeekEnabled(enabled);
+                this.paginationComponent.resetPage();
+            },
             onAddPrompt: () => {
                 this.showPromptForm();
             }

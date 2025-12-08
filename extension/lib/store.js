@@ -10,7 +10,8 @@ class Store {
             keyword: '',
             categories: new Set(['全部']),
             randomMap: new Map(),
-            nsfwEnabled: false
+            nsfwEnabled: true,
+            recentWeekEnabled: false
         };
         this.listeners = [];
     }
@@ -168,8 +169,13 @@ class Store {
         this.notify();
     }
 
+    setRecentWeekEnabled(enabled) {
+        this.state.recentWeekEnabled = enabled;
+        this.notify();
+    }
+
     getFilteredPrompts() {
-        const { prompts, keyword, selectedCategory, activeFilters, favorites, sortMode, nsfwEnabled } = this.state;
+        const { prompts, keyword, selectedCategory, activeFilters, favorites, sortMode, nsfwEnabled, recentWeekEnabled } = this.state;
 
         const FLASH_MODE_PROMPT = {
             title: "灵光模式",
@@ -186,6 +192,10 @@ OK，我想要：`,
             author: "Official@glidea",
             isFlash: true
         };
+
+        // Calculate one week ago timestamp
+        const oneWeekAgo = new Date();
+        oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
 
         let filtered = prompts.filter(prompt => {
             const matchesSearch = !keyword ||
@@ -205,6 +215,13 @@ OK，我想要：`,
                 return false;
             }
 
+            // Filter by recent week if enabled
+            if (recentWeekEnabled) {
+                if (!prompt.created) return false;
+                const createdDate = new Date(prompt.created);
+                if (createdDate < oneWeekAgo) return false;
+            }
+
             if (activeFilters.size === 0) return true;
 
             const promptId = `${prompt.title}-${prompt.author}`;
@@ -220,6 +237,17 @@ OK，我想要：`,
         });
 
         // Sort
+        // If recent week is enabled, sort by created time (newest first)
+        if (recentWeekEnabled) {
+            filtered.sort((a, b) => {
+                const dateA = a.created ? new Date(a.created) : new Date(0);
+                const dateB = b.created ? new Date(b.created) : new Date(0);
+                return dateB - dateA; // Newest first
+            });
+            filtered.unshift(FLASH_MODE_PROMPT);
+            return filtered;
+        }
+
         const favoriteItems = [];
         const customItems = [];
         const normalItems = [];
