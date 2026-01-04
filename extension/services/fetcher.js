@@ -1,5 +1,5 @@
 window.Fetcher = {
-    async fetchWithCache(url, key, duration) {
+    async fetchWithCache(url, key, duration, transformFn = null) {
         try {
             const timestampKey = `${key}_time`;
 
@@ -18,9 +18,14 @@ window.Fetcher = {
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
-            const data = await response.json();
+            let data = await response.json();
 
-            // 3. Update cache
+            // 3. Transform if needed
+            if (transformFn) {
+                data = await transformFn(data);
+            }
+
+            // 4. Update cache
             await chrome.storage.local.set({
                 [key]: data,
                 [timestampKey]: now
@@ -30,7 +35,7 @@ window.Fetcher = {
         } catch (error) {
             console.error(`Failed to fetch ${url}:`, error);
 
-            // 4. Fallback to cache if available (even if expired)
+            // 5. Fallback to cache if available (even if expired)
             const cache = await chrome.storage.local.get([key]);
             return cache[key] || []; // Return empty array if nothing in cache
         }
